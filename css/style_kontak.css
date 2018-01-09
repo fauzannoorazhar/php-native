@@ -1,0 +1,95 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* margin-bottom seukuran dengan tinggi footer */
+	padding-top: 50px;
+	background-image: url('../img/flat/black2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.btn-primary {
+    color: #7fd2e4;
+    background: Transparent;
+    border-color: #ccc;
+}
+
+.btn-primary:hover {
+		color: #fff;
+		background: #2e6da4;
+		border-color: #2e6da4;
+}
+
+.navbar-brand img {
+	margin-top: -5px;
+	max-height: 32px;
+}
+
+.navbar-default {
+	background-color: #7fd2e4;
+	border-bottom: 2px solid #333;
+	color: #333;
+}
+
+.navbar-default .navbar-brand {
+	background-color: #7fd2e4;
+	color: #333;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #7fd2e4;
+    background-color: #080808;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+h2, .h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.text-muted {
+    color: #A29E9E;
+}
+
+.jumbotron {
+	color: #333;
+	background: Transparent;
+}
+
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+b, strong {
+    font-weight: bold;
+    color: #fff;
+}
+
+footer {
+    background: Transparent;
+    min-height: 120px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: #fff;
+}

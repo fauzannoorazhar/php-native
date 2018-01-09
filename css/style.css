@@ -1,0 +1,104 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* margin-bottom seukuran dengan tinggi footer */
+	color: #000;
+	background-image: url('../img/flat/teteh.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #908888;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #D4EDEA;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: Transparent;
+}
+
+.navbar-brand img {
+	margin-top: -10px;
+	max-height: 40px;
+}
+
+.navbar-inverse {
+    background-color: #7AD0E4B3;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    color: #000;
+}
+
+.navbar-inverse .navbar-brand {
+	background-color: Transparent;
+	color: #000;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #D3EBEB;
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000;
+}
+
+.well {
+		background-color: Transparent;
+		border: Transparent;
+		color: #000;
+}
+
+.thumbnail {
+    display: block;
+    padding: 2px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #7AD0E4B3;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+footer {
+    background: #7AD0E4B3;
+    min-height: 120px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: #000;
+}
